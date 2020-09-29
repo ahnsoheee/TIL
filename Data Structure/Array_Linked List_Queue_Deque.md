@@ -1,4 +1,4 @@
-## 1. Array
+## Array
 
 ![image](https://user-images.githubusercontent.com/61968474/94548701-12432780-028c-11eb-9b17-df2c44d24f55.png)
 
@@ -18,7 +18,7 @@
 
 
 
-## 2. Linked-list (연결 리스트)
+## Linked-list (연결 리스트)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561461-ff861e00-029e-11eb-92bd-7b0bef266e20.png)
 
@@ -39,7 +39,7 @@
 
 
 
-## 3. Queue (큐)
+## Queue (큐)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561522-19bffc00-029f-11eb-91dc-dc0007fd8b80.png)
 
@@ -47,7 +47,7 @@
 - 삭제는 front에서만 이루어지고, 삽입은 rear에서만 이루어진다.
 - 선입선출 구조 (FIFO : First - In - First - Out) : 가장 먼저 삽입된 원소가 가장 먼저 삭제된다.
 
-## 4. Deque (덱)
+## Deque (덱)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561565-27758180-029f-11eb-84e1-64fb9a14d550.png)
 

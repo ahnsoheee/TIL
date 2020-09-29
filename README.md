@@ -9,7 +9,7 @@
 ### 데이터 구조
 [Array / Linked list / Queue / Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)
 
-[Hash map / map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)
+[Hash map / Map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)
 
 ### 웹
 [REST API](https://github.com/ahnsoheee/Developer-technologies/blob/master/Web/RestAPI.md)
@@ -17,5 +17,5 @@
 
 ### 자바스크립트
 
-[Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/6c54c130ae434a39e9cd1696a8dd2c3eaa087fe8/JavaScript/Babel_Polyfill.md)
+[Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Babel_Polyfill.md)
 

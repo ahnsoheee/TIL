@@ -12,7 +12,7 @@
 [Hash map / map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_map.md)
 
 ### 웹
-[HTTP]()
+[REST API](https://github.com/ahnsoheee/Developer-technologies/blob/master/Web/Rest-API.md)
 
 
 ### 자바스크립트

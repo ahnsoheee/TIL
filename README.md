@@ -13,9 +13,3 @@
 
 ### 웹
 [REST API](https://github.com/ahnsoheee/Developer-technologies/blob/master/Web/RestAPI.md)
-
-
-### 자바스크립트
-
-[Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Babel_Polyfill.md)
-

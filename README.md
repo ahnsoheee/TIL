@@ -15,7 +15,7 @@
 [REST API](https://github.com/ahnsoheee/Developer-technologies/blob/master/Web/RestAPI.md)
 
 ### 📚 JavaScript
-[Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Babel_Polyfill.md)
+[Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Babel/Babel_Polyfill.md)
 
 [OOP 객체지향 프로그래밍](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/OOP.md)
 ### 🚝 NodeJS-express

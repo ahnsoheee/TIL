@@ -28,4 +28,8 @@ npm install babel-loader --save-dev
 npm install --save-dev @babel/plugin-proposal-class-properties
 npm install --save-dev html-webpack-plugin
 ```
+
 ### Webpack/Babel config
+[webpack.config.js](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Webpack_Babel/webpack.config.js)
+
+[babel.config.js](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Webpack_Babel/babel.config.js)

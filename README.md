@@ -1,6 +1,4 @@
-# Developer-technologies
-
-## ❗ CS study ❗
+# ❗ CS study ❗
 
 ### 💻 컴퓨터 구조
 [Memory / CPU / InputOutput](https://github.com/ahnsoheee/Developer-technologies/blob/master/Computer%20architecture/Memory_CPU_Input_Output.md)

@@ -1,4 +1,4 @@
-# 1. Array
+# Array
 
 ![image](https://user-images.githubusercontent.com/61968474/94548701-12432780-028c-11eb-9b17-df2c44d24f55.png)
 
@@ -24,7 +24,9 @@
 - 임의의 위치에 원소 추가 : O(N) - 원소 추가 후 전부 한 칸씩 뒤로 밀어야 함
 - 임의의 위치에 원소 제거 : O(N) - 원소 제거 후 전부 한 칸씩 앞으로 밀어야 함
 
-# 2. ArrayList (배열 리스트)
+# ArrayList (배열 리스트)
+
+#### 특징
 
 - Array(배열)을 이용해 리스트를 구현한 것
 
@@ -32,7 +34,7 @@
 
 - 중간에 데이터를 삽입/삭제할 때 오래 걸림, 메모리 낭비
 
-#### Array vs ArrayList
+### Array vs ArrayList
 
 #### Array
 
@@ -51,7 +53,7 @@
 - JavaScript : 배열(Array)에는 리스트 기능이 포함
 - Python : 배열(Array)는 제공하지 않고, 리스트를 제공
 
-# 3. LinkedList (연결 리스트)
+# LinkedList (연결 리스트)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561461-ff861e00-029e-11eb-92bd-7b0bef266e20.png)
 
@@ -83,7 +85,7 @@
 - 배열은 크기가 고정되어 있어 미리 할당 받아야하지만 연결 리스트는 동적으로 할당할 수 있음
 - 배열은 새로운 요소 삽입의 비용이 많이 듦
 
-# 4. Queue (큐)
+# Queue (큐)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561522-19bffc00-029f-11eb-91dc-dc0007fd8b80.png)
 
@@ -97,7 +99,7 @@
 
 - 삽입 / 삭제 : O(1)
 
-# 5. Deque (덱)
+# Deque (덱)
 
 ![image](https://user-images.githubusercontent.com/61968474/94561565-27758180-029f-11eb-84e1-64fb9a14d550.png)
 

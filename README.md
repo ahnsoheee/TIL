@@ -1,6 +1,6 @@
 ### 💻 컴퓨터 구조
 - [Memory / CPU / InputOutput](https://github.com/ahnsoheee/Developer-technologies/blob/master/Computer%20architecture/Memory_CPU_Input_Output.md)  
-
+- [Cache](https://github.com/ahnsoheee/TIL/blob/master/Computer%20architecture/Cache.md)
 
 ### 💾 데이터 구조
 - [Array / Linked list / Queue / Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)

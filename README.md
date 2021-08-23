@@ -1,6 +1,6 @@
-### 기초 
+### Basic
 
-- [OOP 객체지향 프로그래밍](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/OOP.md)  
+- [OOP 객체지향 프로그래밍](https://github.com/ahnsoheee/TIL/blob/master/Basic/OOP.md)  
 
 ### 💻 Computer Architecture
 - [Memory / CPU / InputOutput](https://github.com/ahnsoheee/Developer-technologies/blob/master/Computer%20architecture/Memory_CPU_Input_Output.md)  
@@ -16,6 +16,6 @@
 
 
 ### 📚 JavaScript
-- [Babel / Polyfill](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/Webpack_Babel/Babel_Polyfill.md)
+- [Babel / Polyfill](https://github.com/ahnsoheee/TIL/blob/master/JavaScript/Babel_Polyfill.md)
 
-- [Node.js-Express) Middleware / Router](https://github.com/ahnsoheee/Developer-technologies/blob/master/JavaScript/NodeJS-express/Middle%20ware_Routing.md)  
+- [Node.js-Express) Middleware / Router](https://github.com/ahnsoheee/TIL/tree/master/JavaScript/NodeJS-express)  

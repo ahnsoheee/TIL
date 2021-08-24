@@ -12,7 +12,9 @@
 
 #### URL 구조
 
+```
 <scheme>://<user_name>:<password>@<host>:<port>/<path>?<query>#<fragment>
+```
 
 1. **scheme**
     - 사용할 프로토콜

@@ -84,4 +84,4 @@
     SELECT 컬럼명
     FROM 테이블A
     NATURAL JOIN 테이블B
-    ``
+    ```

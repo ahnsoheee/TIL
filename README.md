@@ -1,7 +1,7 @@
 ### 📌 Basic
 
 - [객체 지향 & 함수형 프로그래밍](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%ED%95%A8%EC%88%98%ED%98%95.md)
-- [시간복잡도_정렬알고리즘](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
+- [시간복잡도_정렬 알고리즘](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
 
 
 ### 📌 Computer Architecture
@@ -35,7 +35,7 @@
     - [Node.js](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Node.js.md)
     - [Express - Middleware / Router](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Express_MiddleWare_Routing.md)  
     - [Babel / Polyfill](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Babel_Polyfill.md)
-
+    - [비동기 처리](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC.md)
 - React
     - [React](https://github.com/ahnsoheee/TIL/blob/master/Web/React/React.md)
     - [React Native](https://github.com/ahnsoheee/TIL/blob/master/Web/React/React_Native.md)

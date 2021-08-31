@@ -32,6 +32,7 @@
 ### 📌 Web
 - [REST API](https://github.com/ahnsoheee/TIL/blob/master/Web/RestAPI.md)
 - [URI & URL & URN](https://github.com/ahnsoheee/TIL/blob/master/Web/URI_URL_URN.md)
+- [쿠키 vs 세션 vs 웹 스토리지](https://github.com/ahnsoheee/TIL/blob/master/Web/%EC%BF%A0%ED%82%A4_%EC%84%B8%EC%85%98_%EC%9B%B9%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)
 
 - Node.js  
     - [Node.js](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Node.js.md)

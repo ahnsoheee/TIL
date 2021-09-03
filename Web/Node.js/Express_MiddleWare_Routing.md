@@ -1,5 +1,10 @@
 # Express - MiddleWare / Routing
 
+## Express
+- Node를 위한 빠르고 간편한 웹 프레임워크
+- express가 실행되면 앱으로 들어오는 각 요청은 정의된 미들웨어와 라우팅에 따라 **맨 위에서부터 아래까지** 처리된다.
+
+
 ## MiddleWare
 
 ### 1. 애플리케이션 레벨 미들웨어

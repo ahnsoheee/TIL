@@ -42,5 +42,7 @@
 - 콜스택에 쌓인 함수가 실행되고, 콜스택에서 제거된다.
 - 이러한 방식으로 비동기 처리가 진행된다.
 
+### NPM
+- Node 모듈을 관리해주는 패키지 매니저
 
 [참고](https://medium.com/@gwakhyoeun/%EC%99%9C-node-js%EB%8A%94-single-thread-%EC%9D%B8%EA%B0%80-bb68434027a3)

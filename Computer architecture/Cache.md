@@ -2,6 +2,7 @@
 
 - 데이터를 미리 복사해 놓는 임시 저장 장소
 - 캐시에 데이터를 미리 복사해 놓으면 계산이나 접근 시간없이 더 빠른 속도로 데이터에 접근할 수 있다.
+- 자원을 효율적으로 사용하기 위해 한 번 요청하고 받은 응답 데이터를 저장해두기 위해 사용한다.
 
 #### 1. Cache miss
 - 참조하려는 데이터가 캐시에 없는 경우
@@ -16,3 +17,6 @@
     [예제](https://github.com/ahnsoheee/Algorithm/blob/master/Programmers/2018_KAKAO_BLIND_RECREUITMENT/%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C.py)
     
 - LFU(Least-Frequenly-Used) : 참조 횟수가 가장 적은 데이터가 교체된다.
+
+#### 캐시 메모리
+- 메인 메모리와 CPU 간의 데이터 속도 향상을 위한 중간 버퍼 역할을 하는 메모리

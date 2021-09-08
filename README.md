@@ -17,8 +17,8 @@
 - [동기 vs 비동기 & Blocking vs Non-blocking](https://github.com/ahnsoheee/TIL/blob/master/Network/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0_block_nonblock.md)
 
 ### 📌 Data Structure
-- [Array / Linked list / Queue / Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)
-- [Hash map / Map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)  
+- [Array & Linked list & Queue & Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)
+- [Hash map & Map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)  
 
 
 ### 📌 Software Engineering

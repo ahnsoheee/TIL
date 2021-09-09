@@ -12,6 +12,7 @@
 
 ### 📌 Operating System
 - [프로세스 & 스레드](https://github.com/ahnsoheee/TIL/blob/master/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%8A%A4%EB%A0%88%EB%93%9C.md)
+- [CPU 스케줄링](https://github.com/ahnsoheee/TIL/blob/master/Operating%20System/CPU_%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)
 
 ### 📌 Network
 - [동기 vs 비동기 & Blocking vs Non-blocking](https://github.com/ahnsoheee/TIL/blob/master/Network/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0_block_nonblock.md)

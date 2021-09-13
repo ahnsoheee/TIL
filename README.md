@@ -27,6 +27,7 @@
 
 
 ### 📌 Database
+- [트랜잭션](https://github.com/ahnsoheee/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
 - [SQL - JOIN](https://github.com/ahnsoheee/TIL/blob/master/Database/SQL_JOIN.md)
 - [SQL & NoSQL](https://github.com/ahnsoheee/TIL/blob/master/Database/SQL_NoSQL.md)
 

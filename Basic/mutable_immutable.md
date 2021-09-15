@@ -1,6 +1,6 @@
 ## Mutable vs Immutable
 
-### mutable
+### Mutable
 - 변할 수 있다는 의미로 해당 데이터의 주소를 참조한다.
 - List, Dictionary, HashMap, ArrayList 
 - object 타입의 a를 =을 이용해 b로 복사하고 a의 값을 변경한다면 b도 변경된다. 

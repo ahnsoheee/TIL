@@ -4,6 +4,8 @@
 - [시간복잡도_정렬 알고리즘](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
 - [얕은 복사 & 깊은 복사](https://github.com/ahnsoheee/TIL/blob/master/Basic/copy.md)
 - [정적 타이핑 vs 동적 타이핑](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%A0%95%EC%A0%81%ED%83%80%EC%9D%B4%ED%95%91_%EB%8F%99%EC%A0%81%ED%83%80%EC%9D%B4%ED%95%91.md)
+- [Mutable vs Immutable](https://github.com/ahnsoheee/TIL/blob/master/Basic/mutable_immutable.md)
+
 
 ### 📌 Computer Architecture
 - [Memory & CPU & InputOutput](https://github.com/ahnsoheee/Developer-technologies/blob/master/Computer%20architecture/Memory_CPU_Input_Output.md)  

@@ -23,7 +23,7 @@
 ### 📌 Data Structure
 - [Array & Linked list & Queue & Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)
 - [Hash map & Map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)  
-
+- [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
 
 ### 📌 Software Engineering
 - [TDD & BDD](https://github.com/ahnsoheee/TIL/blob/master/Software%20Engineering/TDD_BDD.md)

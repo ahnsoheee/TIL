@@ -44,3 +44,55 @@
 - commit history를 출력
 #### 8. git push 
 - local repository에서 remote repository로 저장
+
+
+### Workspace -> Remote repository
+1. repository 생성
+    ```
+    $ git init
+    ```
+2. 변경 내역을 stage에 올리기
+    ```
+    $ git add '파일명'
+    ```
+3. git의 상태 보기
+    ```
+    $ git staus
+    ```
+4. 커밋하기 (Local repository에 올리기)
+    ```
+    $ git commit -m 'commit message'
+    ```
+5. 푸쉬하기 (Remote repository에 올리기)
+    ```
+    $ git push origin '브랜치'
+    ```
+
+    
+
+### Remote repository -> Workspace (-> Remote repository)
+
+
+1. fork
+    - github UI를 통해 진행
+
+2. clone
+  
+    - clone : 특정 repository를 내 local repository로 복사하여 새로운 저장소를 만드는 기능
+      ```
+      $ git clone '가져올 원격 저장소 주소'
+      - single-branch 옵션
+      $ git clone '가져올 원격 저장소 주소' -b '브랜치' --single-branch
+      ```
+
+
+3. workspace -> remote repository의 2단계부터 동일
+4. Pull Request
+    - github UI를 통해 진행
+    - 내가 한 작업을 원본 저장소에 반영해달라고 요청하는 것
+ 
+
+#### fork와 clone의 차이점
+- fork : 다른 사람의 git repository를 내 git repository로 그대로 복제하는 기능(수정하고 싶을 때)
+
+- clone : 특정 repository를 내 local repository로 복사하여 새로운 저장소를 만드는 기능

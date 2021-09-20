@@ -4,7 +4,7 @@
 
 - 온라인으로 소스코드 공유 및 협업, 저장할 수 있는 시스템
 
-### 저장소
+## 저장소
 #### 1. workspace
 - 실제 소스코드를 작업하는 공간
 - 현재 작업 중인 파일이 있는 내 PC의 directory
@@ -23,7 +23,7 @@
 - github 등
 
 
-### 명령어
+## 명령어
 #### 1. git init 
 - repository 생성
 #### 2. git status 
@@ -46,7 +46,7 @@
 - local repository에서 remote repository로 저장
 
 
-### Workspace -> Remote repository
+## Workspace -> Remote repository
 1. repository 생성
     ```
     $ git init
@@ -70,7 +70,7 @@
 
     
 
-### Remote repository -> Workspace (-> Remote repository)
+## Remote repository -> Workspace (-> Remote repository)
 
 
 1. fork
@@ -92,7 +92,7 @@
     - 내가 한 작업을 원본 저장소에 반영해달라고 요청하는 것
  
 
-#### fork와 clone의 차이점
+### fork와 clone의 차이점
 - fork : 다른 사람의 git repository를 내 git repository로 그대로 복제하는 기능(수정하고 싶을 때)
 
 - clone : 특정 repository를 내 local repository로 복사하여 새로운 저장소를 만드는 기능

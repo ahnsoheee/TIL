@@ -1,10 +1,10 @@
 ### 📌 Basic
 
 - [객체 지향 & 함수형 프로그래밍](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%ED%95%A8%EC%88%98%ED%98%95.md)
-- [시간복잡도_정렬 알고리즘](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
 - [얕은 복사 & 깊은 복사](https://github.com/ahnsoheee/TIL/blob/master/Basic/copy.md)
 - [정적 타이핑 vs 동적 타이핑](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%A0%95%EC%A0%81%ED%83%80%EC%9D%B4%ED%95%91_%EB%8F%99%EC%A0%81%ED%83%80%EC%9D%B4%ED%95%91.md)
 - [Mutable vs Immutable](https://github.com/ahnsoheee/TIL/blob/master/Basic/mutable_immutable.md)
+- [시간복잡도_정렬 알고리즘](https://github.com/ahnsoheee/TIL/blob/master/Basic/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
 
 
 ### 📌 Computer Architecture
@@ -41,6 +41,8 @@
 - [네이티브앱 & 웹앱 & 하이브리드앱](https://github.com/ahnsoheee/TIL/blob/master/Web/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%95%B1_%EC%9B%B9%EC%95%B1_%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%EC%95%B1.md)
 - [CORS](https://github.com/ahnsoheee/TIL/blob/master/Web/CORS.md)
 - [웹 사이트 최적화 기법](https://github.com/ahnsoheee/TIL/blob/master/Web/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%B5%9C%EC%A0%81%ED%99%94%EA%B8%B0%EB%B2%95.md)
+- [CSR & SSR](https://github.com/ahnsoheee/TIL/blob/master/Web/CSR_SSR.md)
+
 - Node.js  
     - [Node.js](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Node.js.md)
     - [Express - Middleware / Router](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Express_MiddleWare_Routing.md)  

@@ -42,6 +42,7 @@
 - [CORS](https://github.com/ahnsoheee/TIL/blob/master/Web/CORS.md)
 - [웹 사이트 최적화 기법](https://github.com/ahnsoheee/TIL/blob/master/Web/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%B5%9C%EC%A0%81%ED%99%94%EA%B8%B0%EB%B2%95.md)
 - [CSR & SSR](https://github.com/ahnsoheee/TIL/blob/master/Web/CSR_SSR.md)
+- [JWT(JSON Web Token)](https://github.com/ahnsoheee/TIL/blob/master/Web/JWT.md)
 
 - Node.js  
     - [Node.js](https://github.com/ahnsoheee/TIL/blob/master/Web/Node.js/Node.js.md)

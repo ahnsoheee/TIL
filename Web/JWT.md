@@ -1,4 +1,4 @@
-## JWT (Json Web Token)
+## JWT (JSON Web Token)
 
 - JSON 객체를 통해 안전한 권한을 위해 사용할 토큰을 발급해주는 도구
 - 인증, 정보 전달 등에 활용된다.
@@ -93,4 +93,5 @@ eyJpc3MiOiJ2ZWxvcGVydC5jb20iLCJleHAiOiIxNDg1MjcwMDAwMDAwIiwiaHR0cHM6Ly92ZWxvcGVy
 - Payload에 대한 정보를 암호화하지 않고 단순히 base64로 인코딩만 하기 때문에 중간에 갈취당할 경우 디코딩을 통해 데이터를 볼 수 있다. JWE(JSON Web Encryption)을 통해 암호화하거나 중요한 데이터를 Payload에 넣지 말아야한다.
 
 -[JWT 디버거](https://jwt.io/)
+
 -[참고](https://velopert.com/2389)

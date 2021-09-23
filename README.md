@@ -22,7 +22,7 @@
 
 ### 📌 Data Structure
 - [Array & Linked list & Queue & Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_Linked%20List_Queue_Deque.md)
-- [Hash map & Map](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Hash%20map_Map.md)  
+- [HashMap & Map](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashMap_Map.md)  
 - [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
 
 ### 📌 Software Engineering
@@ -63,6 +63,6 @@
     - [이벤트](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/%EC%9D%B4%EB%B2%A4%ED%8A%B8.md)
     - [Babel / Polyfill](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Babel_Polyfill.md)
     - [Webpack](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Webpack.md)
-
+    - [Prototype](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Prototype.md)
 ### 📌 ETC
 - [Git](https://github.com/ahnsoheee/TIL/blob/master/ETC/Git.md)

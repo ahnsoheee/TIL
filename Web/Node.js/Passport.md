@@ -19,21 +19,20 @@
 
 
 ### strategy
-- 어떤 방식을 사용하는지 ex)  '/login'과 같은 경로
-- 로그인이 성공했을 때와 실패했을 때의 redirection을 각각 지정할 수 있다.
+- passport-local : Local 데이터베이스의 username과 password를 이용해서 쿠키와 세션을 통해 사용자 인증을 수행하는 방법
+- passport-github, passport-jwt 등이 있다.
+- passport.authenticate()의 첫번째 인자로 strategy를 등록하고, 두번째 인자로는 콜백 함수를 등록한다.
+- 인증에 성공하면 콜백 함수가 호출된다.
 
-    ```jsx
-    app.post('/login', passport.authenticate('local', {
-        successRedirect: '/',
-        failureRedirect: '/login'
-        failureFlash: true
-        })
-    );
-    ```
+```jsx
+app.post('/login', passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/login'
+    failureFlash: true
+    })
+);
+```
 
-- local
-    - 아이디와 패스워드를 가지고 로그인하는 방식
-    - local 외의 방식은 google, naver 등을 이용해 로그인하는 방식
 
 
 ### passport.serializeUser()
@@ -56,6 +55,9 @@
 
 ## 예시 코드
 ```js
+var passport = require('passport'); 
+var LocalStrategy = require('passport-local').Strategy; 
+
 router.use(session({
   secret: process.env.SECRET,
   resave: false,

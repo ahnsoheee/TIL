@@ -2,12 +2,15 @@
 
 - JSON 객체를 통해 안전한 권한을 위해 사용할 토큰을 발급해주는 도구
 - 인증, 정보 전달 등에 활용된다.
+- 자가수용적인 방식으로 정보를 안정성있게 전달해준다 (자가수용적: 필요한 모든 정보를 자체적으로 지니고 있다. 토큰이 검증됐다는 것을 증명해주는 signature에 포함한다.)
 - Header, Payload, Signature로 구분
     ![image](https://user-images.githubusercontent.com/61968474/134347552-d2f6d771-1327-4faf-9e6d-f09382b67a57.png)
 
 ```
 eyJpc3MiOiJ2ZWxvcGVydC5jb20iLCJleHAiOiIxNDg1MjcwMDAwMDAwIiwiaHR0cHM6Ly92ZWxvcGVydC5jb20vand0X2NsYWltcy9pc19hZG1pbiI6dHJ1ZSwidXNlcklkIjoiMTEwMjgzNzM3MjcxMDIiLCJ1c2VybmFtZSI6InZlbG9wZXJ0In0
 ```
+### 인증 과정
+![image](https://user-images.githubusercontent.com/61968474/134618831-9438edd1-2b83-4e39-99bb-d64c53b88037.png)
 
 ### Header 
 - 토큰의 유형과 토큰을 검증하는데 필요한 서명 시 사용되는 알고리즘으로 구성된다.

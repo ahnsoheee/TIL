@@ -54,7 +54,7 @@
     - [React](https://github.com/ahnsoheee/TIL/blob/master/Web/React/React.md)
     - [React Native](https://github.com/ahnsoheee/TIL/blob/master/Web/React/React_Native.md)
     - [Redux](https://github.com/ahnsoheee/TIL/blob/master/Web/React/Redux.md)
-    -[컴포넌트 라이프 사이클](https://github.com/ahnsoheee/TIL/blob/master/Web/React/ReactComponentLifecycle.md)
+    - [컴포넌트 라이프 사이클](https://github.com/ahnsoheee/TIL/blob/master/Web/React/ReactComponentLifecycle.md)
 
 - Spring
     - [Annotation](https://github.com/ahnsoheee/TIL/blob/master/Web/Spring/Annotation.md) (추가 중..)

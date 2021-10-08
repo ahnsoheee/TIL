@@ -29,9 +29,13 @@
 - [HashMap & Map](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashMap_Map.md)  
 - [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
 
+
 ### 📌 Software Engineering
 - [TDD & BDD](https://github.com/ahnsoheee/TIL/blob/master/Software%20Engineering/TDD_BDD.md)
 
+
+### 📌 Design Pattern
+- [SOLID 원칙](https://github.com/ahnsoheee/TIL/blob/master/Design%20Pattern/SOLID.md)
 
 ### 📌 Database
 - [트랜잭션](https://github.com/ahnsoheee/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)

@@ -1,4 +1,4 @@
-## let, const
+## 1. let, const
 
 ### 기존 var
 - 전통적으로 JavaScript는 함수 스코프와 전역 스코프만 지원해 변수의 생명주기와 접근을 제어했다.
@@ -47,3 +47,69 @@ x = "...";
 - 반대로 전체 변수를 재할당하면 변수와 값 사이의 바인딩이 변경되어 오류가 발생한다.
 - 코드 내 스칼라 값이 실수로 변경되지 않도록 보호하거나, 다른 곳에서 실수로 재할당하지 않도록 하기 위해 const를 사용한다.
 - 모듈을 사용할 때 모듈이 가진 변수가 재할당되지 않도록 const를 사용한다.
+
+
+## 2. 화살표 함수
+- 화살표 함수는 어휘 범위(lexical scope)로 바인드 된다. (화살표 함수 내부의 this는 부모 블록의 this와 같다.)
+    
+```js
+function DelayedGreeter(name) {
+    this.name = name;
+}
+
+DelayedGreeter.prototype.greet = function() {
+    setTimeout(function cb() {
+        console.log('Hello ' + this.name);
+    }, 500);
+};
+
+const greeter = new DelayedGreeter('World');
+greeter.greet(); // Hello undefined
+
+```
+- 콜백 함수(cb)의 범위와 greet 메소드의 범위가 다르기 때문에 제대로 작동하지 않는다.
+
+```js
+DelayedGreeter.prototype.greet = function() {
+    setTimeout((function cb() {
+        console.log('Hello ' + this.name);
+    }).bind(this), 500);
+};
+```
+- 이전에는 .bind() 함수를 통해 바인딩이 필요했다.
+
+```js
+DelayedGreeter.prototype.greet = function() {
+    setTimeout(() => console.log('Hello' + this.name), 500);
+};
+```
+- 화살표 함수로 코드가 짧아지고 직관적이게 된다.
+
+
+## 3. 클래스 구문
+- 내부적으로 객체 관리 방식(프로토타입을 통해 속성과 함수를 상속)이 바뀐것이 아니라 가독성이 좋고, 유용하게 구문 상 편의를 위한 것일 뿐이다.
+- 기존 방식 사용
+    ```js
+    function Person(name, surname, age) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
+
+    Person.prototype.getFullName = function(0 {
+        return this.name + ' ' + this.surname;
+    })
+    ```
+- ES6 클래스 구문 사용
+    ```js
+    class Person {
+        constructor (name, surname, age) {
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+        }
+
+        getFullName () {
+            return this.name + ' ' + this.surname;
+        }
+    }

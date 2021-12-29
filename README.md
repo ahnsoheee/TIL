@@ -75,6 +75,6 @@
     - [Babel / Polyfill](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Babel_Polyfill.md)
     - [Webpack](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Webpack.md)
     - [Prototype](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Prototype.md)
-    - [var, let, const](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/let_const.md)
+    - [ES6](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/ES6.md)
 ### 📌 ETC
 - [Git](https://github.com/ahnsoheee/TIL/blob/master/ETC/Git.md)

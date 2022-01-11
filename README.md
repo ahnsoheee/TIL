@@ -83,6 +83,7 @@
     - [Closure](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Closure.md)
     - [Callback](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Callback.md)
     - [Promise](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Promise.md)
+    - [Generator](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Generator.md)
 
 ### 📌 ETC
 - [Git](https://github.com/ahnsoheee/TIL/blob/master/ETC/Git.md)

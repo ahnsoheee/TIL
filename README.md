@@ -67,8 +67,8 @@
     - [컴포넌트 라이프 사이클](https://github.com/ahnsoheee/TIL/blob/master/Web/React/ReactComponentLifecycle.md)
 
 - Spring
-    - [Annotation](https://github.com/ahnsoheee/TIL/blob/master/Web/Spring/Annotation.md) (추가 중..)
     - [Spring](https://github.com/ahnsoheee/TIL/blob/master/Web/Spring/Spring.md) 
+    - [Annotation](https://github.com/ahnsoheee/TIL/blob/master/Web/Spring/Annotation.md) (추가 중..)
 
 ### 📌 Language
 - JavaScript
@@ -80,5 +80,7 @@
     - [ES6](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/ES6.md)
     - [Closure](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Closure.md)
     - [Callback](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Callback.md)
+    - [Promise](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/Promise.md)
+
 ### 📌 ETC
 - [Git](https://github.com/ahnsoheee/TIL/blob/master/ETC/Git.md)

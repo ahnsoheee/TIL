@@ -33,3 +33,12 @@ function findPattern(files, regex) {
     });
     return emitter;
 }
+
+
+<details>
+<summary>참고</summary>
+
+- Node.js 디자인패턴
+
+
+</details>

@@ -14,20 +14,27 @@
 
 - 모든 노드가 '모든 왼쪽 자식 < n <= 모든 오른쪽 자식' 속성에 대해 반드시 참이어야 한다. (중복된 값은 경우에 따
 라 다를 수 있음)
-<img width="200" alt="스크린샷 2022-02-11 오전 12 35 47" src="https://user-images.githubusercontent.com/61968474/153441457-6a1b5479-66d1-4452-b05d-6ee85d640b9e.png">
+<img width="581" alt="스크린샷 2022-02-11 오전 12 55 26" src="https://user-images.githubusercontent.com/61968474/153445350-d136cfc6-df70-457e-8321-3d275ea632f1.png">
 
 ### 완전 이진 트리 (Complete binary tree)
 - 모든 높이에서 노드가 꽉차 있는 이진 트리를 말한다.
 - 마지막 단계에서는 꽉 차 있지 않아도 되지만, 노드가 왼쪽에서 오른쪽으로 채워져야 한다.
 
+<img width="532" alt="스크린샷 2022-02-11 오전 12 55 05" src="https://user-images.githubusercontent.com/61968474/153445279-00e14765-a030-4b35-9ae4-fc3f32d29a62.png">
+
+
 ### 전 이진 트리 (Full binary tree)
 - 모든 노드의 자식이 없거나 정확히 두 개 있는 경우
-- 자식이 하나만 있는 노드가 존재해서는 않된다.
+- 자식이 하나만 있는 노드가 존재해서는 안된다.
 
-### 포화 이진 트리 (Perfect binary tree )
+<img width="519" alt="스크린샷 2022-02-11 오전 12 55 57" src="https://user-images.githubusercontent.com/61968474/153445427-edf59468-31fd-4028-9196-8306cb9204df.png">
+
+### 포화 이진 트리 (Perfect binary tree)
 - 전 이진 트리이면서 완전 이진 트리인 경우
 - 모든 말단 노드는 같은 높이에 있어야 하며, 마지막 단계에서 노드의 개수가 최대가 되어야 한다.
 - k단계의 노드의 개수는 정확히 2^(k-1)개여야 한다.
+<img width="241" alt="스크린샷 2022-02-11 오전 12 56 46" src="https://user-images.githubusercontent.com/61968474/153445591-40c401d4-3bfa-4ac7-b837-427932c29f4d.png">
+
 
 ## 균형 vs 비균형
 **추가**

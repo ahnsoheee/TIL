@@ -30,6 +30,7 @@
 - [Queue & Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Queue_Deque.md)
 - [HashMap & Map](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashMap_Map.md)  
 - [Tree](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Tree.md)
+- [Heap](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Heap.md)
 - [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
 
 

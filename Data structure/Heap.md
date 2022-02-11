@@ -4,6 +4,9 @@
 - 최대값이나 최소값을 빠르게 찾아낼 수 있는 자료구조
 
 ### 종류
+
+![image](https://user-images.githubusercontent.com/61968474/153554737-f4a2d9b8-4b03-4d62-b3e4-87104c15c31d.png)
+
 #### 최대 힙
 - 부모 노드가 자식 노드보다 크거나 같은 완전 이진 트리
 - 루트가 트리 전체에서 가장 큰 원소
@@ -24,3 +27,9 @@
 - 삭제 후 가장 마지막 원소(맨 밑 가장 왼쪽에 있는 원소)가 루트 노드로 이동한다.
 - 이동한 후, 자식 노드와 비교해 작은 원소와 게속 교환하며 최소힙의 속성을 유지한다.
 - 시간복잡도: O(logN)
+
+<details>
+<summary>참고</summary>
+
+- https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html
+</details>

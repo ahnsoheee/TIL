@@ -83,6 +83,15 @@ void postOrderTraversal(TreeNode node) {
 }
 ```
 
+## B-Tree
+- 자식 노드의 개수가 2개 이상인 트리
+- 노드 내의 데이터가 1개 이상일 수 있다.
+- 노드 내 최대 데이터 수가 2개면 2차 B-Tree, N개면 N차 B-Tree라고 한다.
+- 정렬된 순서를 보장하고, 멀티 레벨 인덱싱을 통해 빠른 검색을 할 수 있기 때문에 DB에서 사용하는 자료구조이다.
+
+[인덱스](https://github.com/ahnsoheee/TIL/blob/master/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md#b-tree)
+
+
 <details>
 <summary>참고</summary>
 

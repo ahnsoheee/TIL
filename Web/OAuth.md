@@ -33,13 +33,13 @@
 - Client ID가 가진 Redirect URL과 비교 후 같으면 Resource Owner에게 scope에 해당하는 기능을 할 수 있도록 Client에게 부여할 것인지 물어보는 메세지를 보낸다.
 - 허용하면 Resource Server는 user id와 scope를 저장한다. (scope: 권한의 범위)
 
-#### Resource Server의 승인
+### Resource Server의 승인
 - Authorization code를 Owner에게 전송한다.
 - Owner는 은밀하게 Client로 이동해서 Client가 Authorization code를 갖게 된다.
 - Client는 Authorization code와 Client ID, Secret 값을 Resource Server에게 전송하고 액세스 토큰을 요청한다.
 - Resource Serversms Authorization code를 확인하고 Client ID, secret, URL을 확인 후에 액세스 토큰을 발급한다.
 
-#### 액세스 토큰 발급
+### 액세스 토큰 발급
 - 다시 인증을 안하기 위해 Resource Server와 Client의 Authorization code를 삭제한다.
 - Resource Serversms Client에게 액세스 토큰을 전송하고, Client는 발급받은 토큰을 저장한다.
 

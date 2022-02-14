@@ -95,6 +95,15 @@ eyJpc3MiOiJ2ZWxvcGVydC5jb20iLCJleHAiOiIxNDg1MjcwMDAwMDAwIiwiaHR0cHM6Ly92ZWxvcGVy
 - API 호출 시 매 호출마다 토큰 데이터를 서버에 전달해야 하는데 길이가 길면 네트워크 대역폭 낭비가 심할 수 있다.
 - Payload에 대한 정보를 암호화하지 않고 단순히 base64로 인코딩만 하기 때문에 중간에 갈취당할 경우 디코딩을 통해 데이터를 볼 수 있다. JWE(JSON Web Encryption)을 통해 암호화하거나 중요한 데이터를 Payload에 넣지 말아야한다.
 
--[JWT 디버거](https://jwt.io/)
+### Access Token & Refresh Token
+- 토큰이 만료되기 전 토큰을 탈취당하면 아무런 조치를 취할 수 없다. 이를 막기 위해 Access Token과 Refresh Token 함께 발급한다.
+- Access Token의 만료기간은 짧게, Refresh Token은 길게(2주) 부여해 Access Token이 만료되면 Refresh Token을 통해 Access Token 재발급을 요청한다.
+- 하지만 Refresh Token이 탈취되는 것에 대한 추가적인 조치도 필요하다.
 
--[참고](https://velopert.com/2389)
+- [JWT 디버거](https://jwt.io/)
+
+<details>
+<summary>참고</summary>
+
+- [참고](https://velopert.com/2389)
+</details>

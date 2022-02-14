@@ -33,7 +33,7 @@ function findPattern(files, regex) {
     });
     return emitter;
 }
-
+```
 
 <details>
 <summary>참고</summary>

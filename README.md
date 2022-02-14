@@ -12,7 +12,6 @@
 - [Cache](https://github.com/ahnsoheee/TIL/blob/master/Computer%20architecture/Cache.md)
 
 
-
 ### 📌 Operating System
 - [프로세스 & 스레드](https://github.com/ahnsoheee/TIL/blob/master/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - [CPU 스케줄링](https://github.com/ahnsoheee/TIL/blob/master/Operating%20System/CPU_%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)
@@ -31,8 +30,8 @@
 - [Hash Table](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashTable.md)  
 - [Tree](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Tree.md)
 - [Heap](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Heap.md)
-- [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
-
+- [Python - 데이터 구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)
+- [Java - HashMap & Map](https://github.com/ahnsoheee/TIL/blob/master/Language/Data%20structure/HashMap.md)
 
 ### 📌 Software Engineering
 - [TDD & BDD](https://github.com/ahnsoheee/TIL/blob/master/Software%20Engineering/TDD_BDD.md)
@@ -79,7 +78,6 @@
 ### 📌 Language
 - Java
     - [오버로딩 & 오버라이딩](https://github.com/ahnsoheee/TIL/blob/master/Language/Java/Overloading_Overriding.md)
-    - [HashMap](https://github.com/ahnsoheee/TIL/blob/master/Language/Java/HashMap.md)
 - JavaScript
     - [싱글스레드 & 비동기 처리](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C_%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC.md)
     - [이벤트](https://github.com/ahnsoheee/TIL/blob/master/Language/JavaScript/%EC%9D%B4%EB%B2%A4%ED%8A%B8.md)

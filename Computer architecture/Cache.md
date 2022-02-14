@@ -24,22 +24,21 @@
 
 ### 페이지 교체 알고리즘
 - LRU(Least-Recently-Used) : 가장 오랫동안 사용되지 않은 데이터가 교체된다.
-
-[예제](https://github.com/ahnsoheee/Algorithm/blob/master/Programmers/2018_KAKAO_BLIND_RECRUITMENT/%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C.py)
+- [예제](https://github.com/ahnsoheee/Algorithm/blob/master/Programmers/2018_KAKAO_BLIND_RECRUITMENT/%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C.py)
     
-- LFU(Least-Frequenly-Used) : 참조 횟수가 가장 적은 데이터가 교체된다.
+- LFU(Least-Frequently-Used) : 참조 횟수가 가장 적은 데이터가 교체된다.
 
 ## 캐시 메모리
 - 메인 메모리와 CPU 간의 데이터 속도 향상을 위한 중간 버퍼 역할을 하는 메모리
+- 지역성을 이용해 데이터 접근 속도를 빠르게 하기 위한 메모리이다.
+-> 속도가 빠른 장치와 느린 장치에서 속도 차이에 따른 병목 현상을 줄이기 위한 메모리
 
-    -> 속도가 빠른 장치와 느린 장치에서 속도 차이에 따른 병목 현상을 줄이기 위한 메모리
+### 지역성
+#### 시간 지역성
 
-### 작동 원리
-- #### 시간 지역성
+- 반복문(for, while)처럼 방금 전에 접근한 메모리를 다시 참고할 확률이 높다.
 
-    - 반복문(for, while)처럼 방금 전에 접근한 메모리를 다시 참고할 확률이 높다.
-
-- #### 공간 지역성
-    - A[0] 사용 후 인접한 A[1]이 사용될 확률이 높다.
+#### 공간 지역성
+- A[0] 사용 후 인접한 A[1]이 사용될 확률이 높다.
 
 캐시에 데이터를 저장할 때는 이러한 참조(공간) 지역성을 최대한 활용하기 위해 해당 데이터 뿐만 아니라, 옆 주소의 데이터도 같이 가져와 미래에 쓰일 것을 대비한다.

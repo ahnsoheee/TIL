@@ -5,13 +5,13 @@
 - 로컬 로그인을 사용하면 사용자의 개인 정보를 직접 관리해야 하는데 OAuth를 사용하면 서드파티 앱에게 위임할 수 있다.
 
 ### 참여자
-- 1. Resource Server: 사용자의 개인 정보를 가진 어플리케이션 서버
+1. Resource Server: 사용자의 개인 정보를 가진 어플리케이션 서버
     - 네이버, 구글
-- 2. Authoriztion Server: 인증을 담당하는 서버
+2. Authoriztion Server: 인증을 담당하는 서버
     - 인증 서버: 깃허브 인증 서버, 네이버, 구글
-- 3. Client: Resource Server에 접속해 정보를 가져오고자 하는 웹 어플리케이션
+3. Client: Resource Server에 접속해 정보를 가져오고자 하는 웹 어플리케이션
     - OAuth를 사용하는 어플리케이션
-- 4. Resource Owner: 자원의 소유자
+4. Resource Owner: 자원의 소유자
     - 일반 사용자
 - 1, 2가 하나의 서버처럼 동작하는 경우도 있다.
 

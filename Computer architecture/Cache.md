@@ -6,13 +6,13 @@
 
 ### Cache miss
 - 참조하려는 데이터가 캐시에 없는 경우
--> 캐시 교체 정책에 다라 기존 캐시를 교체한다.
+-> 캐시 교체 정책에 따라 기존 캐시를 교체한다.
 
     #### 1. Cold miss
     - 해당 메모리 주소를 처음 불러서 발생하는 미스
 
     #### 2. Conflict miss
-    - 캐시 메모리에 A와 B 데이터를 저장해야 하는데, A와 B가같은 메모리 주소에 할당되어 있어서 발생하는 미스
+    - 캐시 메모리에 A와 B 데이터를 저장해야 하는데, A와 B가 같은 메모리 주소에 할당되어 있어서 발생하는 미스
 
     #### 3. Capacity miss
     - 캐시 메모리의 공간이 부족해서 발생하는 미스
@@ -25,7 +25,7 @@
 ### 페이지 교체 알고리즘
 - LRU(Least-Recently-Used) : 가장 오랫동안 사용되지 않은 데이터가 교체된다.
 
-    [예제](https://github.com/ahnsoheee/Algorithm/blob/master/Programmers/2018_KAKAO_BLIND_RECREUITMENT/%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C.py)
+[예제](https://github.com/ahnsoheee/Algorithm/blob/master/Programmers/2018_KAKAO_BLIND_RECRUITMENT/%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C.py)
     
 - LFU(Least-Frequenly-Used) : 참조 횟수가 가장 적은 데이터가 교체된다.
 

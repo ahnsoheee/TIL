@@ -31,7 +31,10 @@
 - 깊은 복사된 객체는 원본과의 참조가 완전히 끊어진 객체이다.
 - 원본 객체와 복사된 객체는 독립적이다.
 - 한 객체의 값이 바뀌더라도 서로 영향을 미치지 않는다.
-- JSON.parse(JSON.stringify(obj) : 배열 관련 함수는 사용 불가능하다. Date 객체를 string으로 변환한다. 다른 방법에 비해 속도가 매우 느리다.
+- JSON.parse(JSON.stringify(obj) : 객체를 JSON 문자열로 변환시킨 후, 객체로 변환시킨다. 
+    - JSON 문자열로 변환하기 때문에 객체에 대한 참조가 없어진 것이다.
+    - 다른 방법에 비해 속도가 매우 느리다.
+    - JSON.stringfy는 함수를 undefined로 처리한다.
 - bind() 함수까지 복사
 
     ```js
@@ -39,8 +42,8 @@
     a: 1,
     b: {
         c: 2,
-    },
-    };
+        },
+    };  
 
     const copiedObj = JSON.parse(JSON.stringify(obj));
 

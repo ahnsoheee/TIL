@@ -28,7 +28,7 @@
 - [Array & ArrayList & List](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_ArrayList_List.md)
 - [Linked List](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/LinkedList.md)
 - [Queue & Deque](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Queue_Deque.md)
-- [HashMap & Map](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashMap_Map.md)  
+- [Hash Table](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/HashTable.md)  
 - [Tree](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Tree.md)
 - [Heap](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Heap.md)
 - [Python 데이터구조](https://github.com/ahnsoheee/TIL/blob/master/Data%20structure/Python_Data_structure.md)

@@ -48,6 +48,7 @@
 - [SQL - JOIN](https://github.com/ahnsoheee/TIL/blob/master/Database/SQL_JOIN.md)
 - [SQL & NoSQL](https://github.com/ahnsoheee/TIL/blob/master/Database/SQL_NoSQL.md)
 - [Index (인덱스)](https://github.com/ahnsoheee/TIL/blob/master/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
+- [ORM & ODM](https://github.com/ahnsoheee/TIL/blob/master/Database/ORM_ODM.md)
 
 ### 📌 Web
 - [REST](https://github.com/ahnsoheee/TIL/blob/master/Web/REST.md)

@@ -21,7 +21,7 @@
 - [TCP](https://github.com/ahnsoheee/TIL/blob/master/Network/TCP.md)
 - [UDP](https://github.com/ahnsoheee/TIL/blob/master/Network/UDP.md)
 - [DNS](https://github.com/ahnsoheee/TIL/blob/master/Network/DNS.md)
-
+- [HTTP & HTTPS](https://github.com/ahnsoheee/TIL/blob/master/Network/HTTP_HTTPS.md)
 
 ### 📌 Data Structure
 - [Array & ArrayList & List](https://github.com/ahnsoheee/Developer-technologies/blob/master/Data%20structure/Array_ArrayList_List.md)

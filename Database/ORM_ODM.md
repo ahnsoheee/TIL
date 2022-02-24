@@ -23,7 +23,7 @@
 #### TypeORM
 
 
-## ORM (Object Document Mapper)
+## ODM (Object Document Mapper)
 - 객체 관계로 정의한 내용을 NoSQL 형태로 매핑해주는 도구
 - 객체와 문서를 1:1 매칭
 

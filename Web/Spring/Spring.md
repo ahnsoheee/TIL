@@ -1,4 +1,43 @@
+## Spring
 
-![Spring-1 2](https://user-images.githubusercontent.com/61968474/148786961-c0ed192f-52ae-49d2-ada2-921efcc51ab9.jpg)
+- 자바 플랫폼을 위한 오픈 소스 애플리케이션 프레임워크
 
-![Spring-2](https://user-images.githubusercontent.com/61968474/148786930-ed3d66e6-cf4e-4e60-b70e-0421f3215a13.jpg)
+### 특징
+
+#### 1. IoC 컨테이너를 갖는다
+- IoC (Inversion of Control): 제어의 역전
+- 주도권이 스프링에게 있다. 
+    - 객체 생성, 생명 주기 관리 등 객체에 대한 제어권이 바뀐다.
+- IoC 컨테이너는 객체의 생성을 책임지고, 의존성을 관리한다.
+- POJO의 생성, 초기화, 서비스, 소멸에 대한 권한을 가진다.
+
+#### 2. DI를 지원한다.
+- DI(Dependency Injection): 의존성 주입
+- 스프링이 관리하는 객체를 (모든 클래스의 메소드에서) 사용할 수 있다.
+    - 싱글톤: 객체는 메모리에 한 번만 로드되고 전역에서 사용할 수 있다.
+- 각 클래스 간의 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결해준다.
+
+#### 3. 많은 필터를 가진다.
+- 필터를 생성할 수도 있다.
+- 인터셉터(AOP): 권한 체크 등등
+
+#### 4. 많은 어노테이션을 가진다.
+- 어노테이션: 컴파일러가 읽는 주석
+- 컴파일 체킹
+    - ex) Override: 상속 관계에서 부모 클래스에 없는 자식클래스의 메소드에 달면 컴파일 에러
+- 어노테이션을 통해 객체를 생성한다.
+    - Autowired: 로딩된 객체를 해당 변수에 연결한다. 타입을 통해 같은 타입이 있으면 해당 변수를 할당(DI)하고, 없으면 null
+    - Component: 스프링이 해당 클래스를 읽고 메모리에 로딩한다. (IoC)
+- 리플렉션: 해당 클래스가 어떤 필드, 메소드, 어노테이션을 가진지 분석하는 기법 (런타임 시)
+
+#### 5. 메시지 컨버터를 가진다.
+- JSON Object로 변경: 자바 Object -> JSON / JSON -> 자바 Object
+- 컨버터: Jackson
+- request 시 JSON으로 변경, response 받을때 자바 Object로 변경
+
+#### 6. BufferedReader와 BufferedWriter를 쉽게 사용할 수 있다. (ByteStream으로 데이터를 주고 받음)
+- InputStreamReader: InputStream(바이트) -> 문자(Character)
+- BufferedReader: 가변 길이로 받을 수 있다.
+- BufferedWriter: 가변 길이 문자열로 데이터를 쓸 수 있다.
+
+
